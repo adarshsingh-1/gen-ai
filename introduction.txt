@@ -1,0 +1,62 @@
+How does generative AI work?
+
+Generative AI works by using algorithms to analyze and learn from large datasets, identifying patterns and structures within the data. It then generates new content based on this understanding, often using techniques like deep learning and neural networks. The process typically involves training a model on a specific type of data (such as text, images, or music) and then using that model to create new, similar content. This can include generating realistic images, composing music, or even writing text that mimics human language.
+
+
+How does ChatGPT utilize generative AI?
+
+ChatGPT leverages generative AI by using a transformer-based architecture to understand and generate human-like text. It is trained on diverse internet text, allowing it to learn grammar, facts, and some reasoning abilities. When a user inputs a prompt, ChatGPT generates responses by predicting the next word in a sentence, considering the context of the conversation. This enables it to engage in coherent and contextually relevant dialogues with users.
+
+For example:-
+The user inputs: "What is the capital of France?"
+The model processes the input and generates the response: "The capital of France is Paris."
+
+ChatGPT is trained on a big network that learns patterns in text. It improves by adjusting itself to give answers closer to the right ones.
+
+Input: “The sky is ___.”
+At first, the model might predict green.
+Training shows the correct answer is blue, so it adjusts itself.
+Next time, it’s more likely to answer blue.
+
+Now, how is it able to predict the next word?
+
+When you give input to ChatGPT, the first step is tokenization. The text is broken down into smaller units called tokens, which can be as short as a single character or as long as a word. For example, the word “playing” might be split into “play” and “ing”. This allows the model to handle words, parts of words, and even punctuation in a consistent way.
+
+Next, the model uses a technique called attention to understand the context. Attention lets the model look at all the tokens in the sentence and focus on the ones that matter most for predicting the next word. This helps the model capture meaning and relationships between words, even if they are far apart in the sentence.
+
+After that, the model makes a prediction. It considers all possible tokens that could come next and assigns probabilities to them. The token with the highest probability is selected as the next word.
+
+Finally, this process works well because of the model’s training on vast amounts of text data. By learning from countless examples, the model has developed a strong sense of which words and tokens are likely to appear together. This training helps it generate accurate and context-aware predictions.
+
+Example: If the input is “The sky is ___”, the text is first split into tokens like [“The”, “sky”, “is”]. The model uses attention to focus on “sky” and “is” as the most relevant tokens. Then it predicts possible next tokens like “blue”, “clear”, or “dark”. Since “blue” is most common in this context, it assigns the highest probability to “blue” and selects it as the next word.
+
+
+What is GPT(Generative Pre-trained Transformer)?
+
+GPT (Generative Pre-trained Transformer) is an AI model developed by OpenAI that understands and generates human-like text. It is built on the transformer architecture, which uses self-attention to analyze relationships between words in a sentence.
+
+The term “pre-trained” means the model is first trained on a huge amount of text to learn grammar, facts, and reasoning patterns before being fine-tuned for specific tasks.
+
+Key features of GPT:
+
+1. Transformer Architecture
+
+Uses self-attention to understand context.
+Handles long text efficiently.
+
+2. Pre-training and Fine-tuning
+
+Pre-training: Learns from large, diverse internet text.
+Fine-tuning: Trained further on task-specific datasets.
+
+3. Text Generation
+
+Produces coherent, context-aware text.
+Can complete prompts, answer questions, and hold conversations.
+
+4. Scalability
+
+Performance improves by increasing model size (parameters).
+Example: GPT-3 has 175 billion parameters, making it highly powerful.
+
+Applications: GPT is used in chatbots, content creation, question answering, and language translation.

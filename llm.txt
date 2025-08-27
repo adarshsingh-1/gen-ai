@@ -1,0 +1,20 @@
+How does LLM work?
+It works on prediction.
+LLM (Large Language Model) works by using deep learning techniques to analyze and generate human-like text. It is trained on vast amounts of text data, allowing it to learn grammar, facts, and context. The model uses a transformer architecture, which enables it to understand relationships between words and generate coherent responses.
+
+The process typically involves the following steps:
+
+1. Pre-training: The model is trained on a diverse dataset to learn language patterns and structures. This phase helps the model develop a general understanding of language.
+
+2. Fine-tuning: After pre-training, the model is further trained on specific tasks or domains. This helps it adapt to particular use cases, such as chatbots or content generation.
+
+3. Inference: When a user inputs a prompt, the model processes the text and generates a response by predicting the next word or sequence of words. It uses attention mechanisms to focus on relevant context and produce coherent output.
+
+Overall, LLMs leverage large-scale data and advanced neural network architectures to understand and generate human-like text, making them powerful tools for various applications.
+
+
+As a pure language model, I predicted the answer based on learned patterns from training data, rather than performing actual arithmetic like a calculator.
+
+Even for simple math like 2 + 2, I generate the answer by predicting the most likely continuation.
+
+Technically, as a language model, I predict the answer based on patterns learned during training. I don’t perform arithmetic the way a calculator does.
