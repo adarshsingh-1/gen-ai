@@ -1,20 +1,30 @@
-How does LLM work?
-It works on prediction.
-LLM (Large Language Model) works by using deep learning techniques to analyze and generate human-like text. It is trained on vast amounts of text data, allowing it to learn grammar, facts, and context. The model uses a transformer architecture, which enables it to understand relationships between words and generate coherent responses.
+A Large Language Model (LLM) works by predicting the next word in a sequence. It uses deep learning to analyze and generate human-like text. An LLM trains on vast amounts of text data, allowing it to learn grammar, facts, and context. The model uses a transformer architecture, which helps it understand relationships between words and generate coherent responses.
 
-The process typically involves the following steps:
+***
 
-1. Pre-training: The model is trained on a diverse dataset to learn language patterns and structures. This phase helps the model develop a general understanding of language.
+### The Process
 
-2. Fine-tuning: After pre-training, the model is further trained on specific tasks or domains. This helps it adapt to particular use cases, such as chatbots or content generation.
+The process involves three main steps:
 
-3. Inference: When a user inputs a prompt, the model processes the text and generates a response by predicting the next word or sequence of words. It uses attention mechanisms to focus on relevant context and produce coherent output.
+1.  **Pre-training**: The model trains on a diverse dataset to learn general language patterns and structures. This phase helps the model develop a broad understanding of language.
 
-Overall, LLMs leverage large-scale data and advanced neural network architectures to understand and generate human-like text, making them powerful tools for various applications.
+2.  **Fine-tuning**: After pre-training, the model is trained further on specific tasks or domains. This helps it adapt to particular use cases, such as chatbots or content generation.
+
+3.  **Inference**: When you input a prompt, the model processes the text and generates a response by predicting the next word or sequence of words. It uses attention mechanisms to focus on relevant parts of the input to produce coherent output.
+
+***
+
+### Prediction vs. Calculation
+
+An LLM predicts answers based on patterns learned during training; it does not perform arithmetic the way a calculator does. For example, when you ask, "What is 2 + 2?", the model analyzes the input and predicts that the most likely response is "4". This prediction is based on the frequency and context of similar questions and answers in its training data.
+
+***Using External Tools***
+
+If we ask something very strange that it has not seen or learned yet, it can also give me the answer using something called external tools. For example, if we ask "What is 123456789 * 987654321?", the model might not have seen this exact question before, but it can use an external calculator tool to compute the answer accurately.
 
 
-As a pure language model, I predicted the answer based on learned patterns from training data, rather than performing actual arithmetic like a calculator.
+Large Language Models are stateless, meaning they do not have memory of past interactions. You must provide all necessary context within the prompt itself.
 
-Even for simple math like 2 + 2, I generate the answer by predicting the most likely continuation.
+For example, asking "What is my name?" will not work because the model has no prior information about you. However, if you provide the context directly in the prompt, such as "My name is Adarsh Singh. What is my name?", the model can then provide the correct answer.
 
-Technically, as a language model, I predict the answer based on patterns learned during training. I don’t perform arithmetic the way a calculator does.
+Conversational applications like Gemini and ChatGPT manage this process for you. They automatically send your previous messages as context with each new prompt. This creates a seamless, continuous dialogue without you needing to manually re-supply the conversation history each time.
