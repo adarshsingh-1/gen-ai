@@ -1,3 +1,4 @@
+import readlineSync from "readline-sync";
 import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({apiKey: "genai-api-key"});
@@ -24,4 +25,3 @@ async function main() {
 }
 
 await main();
-
