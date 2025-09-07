@@ -3,7 +3,7 @@ import readlineSync from "readline-sync";
 
 // Initialize the AI client
 const ai = new GoogleGenAI({
-  apiKey: "AIzaSyCtdmzCWKPxL4qY9droN6Xz9qDwLgPG0Qk"
+  apiKey: "gemini-api-key"
 });
 
 // Store conversation history
